@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Stomise</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>GestionBL</servlet-name>
+    <servlet-class>Control.GestionBL</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GestionBL</servlet-name>
+    <url-pattern>/gestion_bl</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GestionPC</servlet-name>
+    <servlet-class>Control.GestionPc</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GestionPC</servlet-name>
+    <url-pattern>/gestion_pc</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GestionBLF</servlet-name>
+    <servlet-class>Control.GestionBLF</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GestionBLF</servlet-name>
+    <url-pattern>/gestion_blf</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GestionFacture</servlet-name>
+    <servlet-class>Control.GestionFacture</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GestionFacture</servlet-name>
+    <url-pattern>/gestion_facture</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>GestionDevisForm</servlet-name>
+    <servlet-class>Control.GestionDevisForm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GestionDevisForm</servlet-name>
+    <url-pattern>/gestion_devis_form</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>GestionBlForm</servlet-name>
+    <servlet-class>Control.GestionBlForm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GestionBlForm</servlet-name>
+    <url-pattern>/gestion_bl_form</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>GestionBlfForm</servlet-name>
+    <servlet-class>Control.GestionBlfForm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GestionBlfForm</servlet-name>
+    <url-pattern>/gestion_blf_form</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>GestionFactureForm</servlet-name>
+    <servlet-class>Control.GestionFactureForm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GestionFactureForm</servlet-name>
+    <url-pattern>/gestion_facture_form</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>GestionPcForm</servlet-name>
+    <servlet-class>Control.GestionPcForm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GestionPcForm</servlet-name>
+    <url-pattern>/Prise_en_charge_form</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>Control.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ListeProduits</servlet-name>
+    <servlet-class>Control.ListeProduits</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListeProduits</servlet-name>
+    <url-pattern>/liste_produits</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Download</servlet-name>
+    <servlet-class>Control.Download</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Download</servlet-name>
+    <url-pattern>/download</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
